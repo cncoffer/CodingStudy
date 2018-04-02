@@ -1,2 +1,6 @@
-*.pdf
 /WindowsViaC++/*.CHM
+/C++标准库/proj
+/C++Templates/C++ Templates(简体中文版).pdf
+/C++标准库/C++标准库（第2版）.pdf
+/中文第三版Effective C++/中文第三版Effective C++.pdf
+/深度探索C++对象模型/深度探索C++对象模型（清晰版）.pdf
