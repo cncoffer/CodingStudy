@@ -32,7 +32,8 @@ fill_n()将从beg开始的前num个元素赋予值newValue.
 generate()会调用op()产生新值, 并将它赋予[beg,end)内每个元素.
 generate_n()同理.
 
-于是可以使用generate()和function object产生一串自己想要的数值, 比如01序列, 奇数序列等等. 比如生成01序列可以这样写
+于是可以使用generate()和function object产生一串自己想要的数值, 比如01序列, 奇数序列等等. 
+生成01序列可以这样写
 	class MyAssign
 	{
 	public:
