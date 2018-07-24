@@ -10,7 +10,7 @@
 policy(单词意思为规则,政策)指那些提供算法的类/函数, 或者叫function object.
 然后传入模板.
 
-比如STL中的sort()算法, 可以传入比较函数, 这就是policy.
+比如STL中的sort()算法, 可以传入比较函数, 传入的比较函数就是policy.
 
 # 15.1.5 trait和policy
 
@@ -22,7 +22,7 @@ policy(单词意思为规则,政策)指那些提供算法的类/函数, 或者�
 
 # 15.2.1 确定元素的类型
 
-使用局部特化, 来愁绪特定容器的类型.
+使用局部特化, 来抽取特定容器的类型.
     template <typename T>
     class ElementT; // 基本模板
 
@@ -80,3 +80,5 @@ STL中有提供std::is_class<>()函数, 本节使用的函数在vs2015中编译�
 然后在选择类型时, 就可以使用比如下面这样的方式
     typedef template IfThenElse<sizeof(xxx) > sizeof(yyy), xxx, yyy>::ResultT Type;
 
+这个模板不会将Ta和Tb都实例化, 如果只用到Ta就实例化Ta.
+这一点在传入的是两个模板实例化个体时非常重要, 能够减少实例化的模板数量.
