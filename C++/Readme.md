@@ -15,3 +15,9 @@ http://p1ahagy6m.bkt.clouddn.com/CPlusPlus/Source/%E4%B8%AD%E6%96%87%E7%AC%AC%E4
 
 C++标准库
 http://p1ahagy6m.bkt.clouddn.com/CPlusPlus/Source/C++%E6%A0%87%E5%87%86%E5%BA%93%EF%BC%88%E7%AC%AC2%E7%89%88%EF%BC%89.pdf
+
+Qt学习之路2
+https://www.devbean.net/2012/08/qt-study-road-2-catelog/
+
+深入实践Boost
+http://p1ahagy6m.bkt.clouddn.com/CPlusPlus/Source/%E6%B7%B1%E5%85%A5%E5%AE%9E%E8%B7%B5Boost%20Boost%E7%A8%8B%E5%BA%8F%E5%BA%93%E5%BC%80%E5%8F%91%E7%9A%8494%E4%B8%AA%E7%A7%98%E7%AC%88.pdf
