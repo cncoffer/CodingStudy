@@ -31,7 +31,8 @@ void SharedMemoryServer::Init()
 		CREATE_ALWAYS, FILE_ATTRIBUTE_NORMAL, NULL)) == NULL)
 		return;
 	
-	m_hMap = CreateFileMapping(m_hFile, NULL, PAGE_READWRITE, 0, MAPSIZE, MAPNAME);
+	m_hMap = CreateFileMapping((HANDLE)0xFFFFFFFF, NULL, PAGE_READWRITE, 0, MAPSIZE, MAPNAME);
+	auto err = GetLastError();
 	if (m_hMap != NULL && GetLastError() == ERROR_ALREADY_EXISTS)
 	{
 		CloseHandle(m_hFile);

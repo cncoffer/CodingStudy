@@ -21,3 +21,6 @@ https://www.devbean.net/2012/08/qt-study-road-2-catelog/
 
 深入实践Boost
 http://p1ahagy6m.bkt.clouddn.com/CPlusPlus/Source/%E6%B7%B1%E5%85%A5%E5%AE%9E%E8%B7%B5Boost%20Boost%E7%A8%8B%E5%BA%8F%E5%BA%93%E5%BC%80%E5%8F%91%E7%9A%8494%E4%B8%AA%E7%A7%98%E7%AC%88.pdf
+
+Windows核心编程
+http://p1ahagy6m.bkt.clouddn.com/CPlusPlus/Source/Windows%E6%A0%B8%E5%BF%83%E7%BC%96%E7%A8%8B%28%E7%AC%AC%E4%BA%94%E7%89%88%29+%E6%BA%90%E7%A0%81.rar
